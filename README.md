@@ -19,7 +19,7 @@ channel_id = python_engineer_id
 
 yt = YTstats(API_KEY, channel_id)
 yt.extract_all()
-yt.dump()
+yt.dump()  # dumps to .json
 ```
 
 You need an API_KEY for this.

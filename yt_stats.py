@@ -129,7 +129,7 @@ class YTstats:
 
         channel_title = self.video_data.popitem()[1].get('channelTitle', self.channel_id)
         channel_title = channel_title.replace(" ", "_").lower()
-        filename = 'stats_' + channel_title + '.json'
+        filename = channel_title + '.json'
         with open(filename, 'w') as f:
             json.dump(fused_data, f, indent=4)
         
