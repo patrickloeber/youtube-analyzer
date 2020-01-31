@@ -1,8 +1,8 @@
 # YouTube Statistics
 
-Extract youtube statistics of a channel. Uses the YouTube Data API.
-It extracts the channel statistics like viewCount, subscriberCount, and videoCount.
-It further extracts statistics for each video, like title, description, viewCount, likeCount, duration and much more...
+Extract **youtube statistics** of a channel. Uses the YouTube Data API.
+It extracts the channel statistics like *viewCount*, *subscriberCount*, and *videoCount*.
+It further extracts statistics for each video, like *title*, *description*, *viewCount*, *likeCount*, *duration* and much more...
 
 ## Requirements
 
@@ -26,7 +26,7 @@ You need an API_KEY for this.
 
 ## API KEY
 
-https://developers.google.com/youtube/v3/getting-started
+https://developers.google.com/youtube/v3/getting-started  
 https://console.developers.google.com/
 
 You need a Google Account to access the Google API Console, request an API key, and register your application.
