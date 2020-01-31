@@ -1,7 +1,7 @@
 # YouTube Statistics
 
-Extract **youtube statistics** of a channel. Uses the YouTube Data API.
-It extracts the channel statistics like *viewCount*, *subscriberCount*, and *videoCount*.
+Extract **youtube statistics** of a channel. Uses the YouTube Data API.  
+It extracts channel statistics like *viewCount*, *subscriberCount*, and *videoCount*.
 It further extracts statistics for each video, like *title*, *description*, *viewCount*, *likeCount*, *duration* and much more...
 
 ## Requirements
