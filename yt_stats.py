@@ -16,7 +16,7 @@ class YTstats:
         self.get_channel_video_data()
 
     def get_channel_statistics(self):
-        '''Extract the channel statistics'''
+        """Extract the channel statistics"""
         print('get channel statistics...')
         url = f'https://www.googleapis.com/youtube/v3/channels?part=statistics&id={self.channel_id}&key={self.api_key}'
         pbar = tqdm(total=1)
@@ -35,7 +35,7 @@ class YTstats:
         return data
 
     def get_channel_video_data(self):
-        '''Extract all video information of the channel'''
+        "Extract all video information of the channel"
         print('get video data...')
         channel_videos, channel_playlists = self._get_channel_content(limit=50)
 
