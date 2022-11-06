@@ -97,7 +97,7 @@ class YTstats:
         channel_playlists = dict()
         if 'items' not in data:
             print('Error! Could not get correct channel data!\n', data)
-            return channel_videos, channel_videos, None
+            return channel_videos, channel_playlists, None
 
         nextPageToken = data.get("nextPageToken", None)
 
